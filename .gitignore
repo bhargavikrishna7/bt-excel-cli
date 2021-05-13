@@ -1,0 +1,4 @@
+__pycache__/
+bt_excel_cli.egg-info/
+dist/
+env/
