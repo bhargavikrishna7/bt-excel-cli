@@ -9,7 +9,10 @@ setup(
     py_modules=['bt-excel-cli'],
     packages_dir={'':'bt-excel-cli'},
     install_requires=['click', 
-        'pandas'
+        'pandas',
+        'GitPython',
+        'xlrd',
+        'openpyxl'
     ],
     packages=find_namespace_packages(where='bt-excel-cli'),
     include_package_data=True,
